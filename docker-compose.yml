@@ -1,0 +1,10 @@
+
+version: "3"
+
+services:
+  desktop:
+    container_name: desktop
+    build: .
+    ports: 
+      - "3389:3389"
+#    network_mode: host
